@@ -1975,6 +1975,9 @@ design rules under a new name.</description>
 <vertex x="43.815" y="22.225"/>
 <vertex x="1.27" y="22.225"/>
 </polygon>
+<contactref element="U1" pad="1"/>
+<wire x1="32.1769" y1="32.75" x2="30.48" y2="32.75" width="0.3048" layer="1"/>
+<wire x1="30.48" y1="32.75" x2="30.48" y2="33.655" width="0.3048" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="U1" pad="8"/>
