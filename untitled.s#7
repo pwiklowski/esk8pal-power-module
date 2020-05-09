@@ -17474,6 +17474,17 @@ Source: &lt;a href="http://www.national.com/ds/LM/LM2936.pdf"&gt; Data sheet&lt;
 <pad name="P$15" x="5.08" y="-2.54" drill="0.65" diameter="2.54"/>
 <pad name="P$16" x="7.62" y="-2.54" drill="0.65" diameter="2.54"/>
 </package>
+<package name="PADHOLES">
+<pad name="P$2" x="2.54" y="0" drill="0.65" diameter="2.54" thermals="no"/>
+<pad name="P$3" x="5.08" y="0" drill="0.65" diameter="2.54"/>
+<pad name="P$5" x="3.81" y="1.27" drill="0.65" diameter="2.54"/>
+<pad name="P$6" x="6.35" y="1.27" drill="0.65" diameter="2.54"/>
+<pad name="P$7" x="7.62" y="0" drill="0.65" diameter="2.54"/>
+<pad name="P$9" x="3.81" y="-1.27" drill="0.65" diameter="2.54"/>
+<pad name="P$10" x="6.35" y="-1.27" drill="0.65" diameter="2.54"/>
+<pad name="P$11" x="8.89" y="-1.27" drill="0.65" diameter="2.54"/>
+<pad name="P$12" x="8.89" y="1.27" drill="0.65" diameter="2.54"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PAD">
@@ -17493,6 +17504,14 @@ Source: &lt;a href="http://www.national.com/ds/LM/LM2936.pdf"&gt; Data sheet&lt;
 <device name="" package="AA">
 <connects>
 <connect gate="G$1" pin="P" pad="P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$14 P$15 P$16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PAD" package="PADHOLES">
+<connects>
+<connect gate="G$1" pin="P" pad="P$2 P$3 P$5 P$6 P$7 P$9 P$10 P$11 P$12"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -17539,10 +17558,10 @@ Source: &lt;a href="http://www.national.com/ds/LM/LM2936.pdf"&gt; Data sheet&lt;
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="U$1" library="wirepad" deviceset="PAD" device=""/>
-<part name="U$2" library="wirepad" deviceset="PAD" device=""/>
-<part name="U$3" library="wirepad" deviceset="PAD" device=""/>
-<part name="U$4" library="wirepad" deviceset="PAD" device=""/>
+<part name="U$1" library="wirepad" deviceset="PAD" device="PAD" value="PADPAD"/>
+<part name="U$2" library="wirepad" deviceset="PAD" device="PAD" value="PADPAD"/>
+<part name="U$3" library="wirepad" deviceset="PAD" device="PAD" value="PADPAD"/>
+<part name="U$4" library="wirepad" deviceset="PAD" device="PAD" value="PADPAD"/>
 </parts>
 <sheets>
 <sheet>
