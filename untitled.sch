@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,17 +39,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -17246,15 +17246,15 @@ Source: AVX .. aphvc.pdf</description>
 <pad name="P$16" x="7.62" y="-2.54" drill="0.65" diameter="2.54"/>
 </package>
 <package name="PADHOLES">
-<pad name="P$2" x="2.54" y="0" drill="0.65" diameter="2.54" thermals="no"/>
-<pad name="P$3" x="5.08" y="0" drill="0.65" diameter="2.54"/>
-<pad name="P$5" x="3.81" y="1.27" drill="0.65" diameter="2.54"/>
-<pad name="P$6" x="6.35" y="1.27" drill="0.65" diameter="2.54"/>
-<pad name="P$7" x="7.62" y="0" drill="0.65" diameter="2.54"/>
-<pad name="P$9" x="3.81" y="-1.27" drill="0.65" diameter="2.54"/>
-<pad name="P$10" x="6.35" y="-1.27" drill="0.65" diameter="2.54"/>
-<pad name="P$11" x="8.89" y="-1.27" drill="0.65" diameter="2.54"/>
-<pad name="P$12" x="8.89" y="1.27" drill="0.65" diameter="2.54"/>
+<pad name="P$2" x="-2.54" y="0" drill="0.65" diameter="2.54" thermals="no"/>
+<pad name="P$3" x="0" y="0" drill="0.65" diameter="2.54"/>
+<pad name="P$5" x="-1.27" y="1.27" drill="0.65" diameter="2.54"/>
+<pad name="P$6" x="1.27" y="1.27" drill="0.65" diameter="2.54"/>
+<pad name="P$7" x="2.54" y="0" drill="0.65" diameter="2.54"/>
+<pad name="P$9" x="-1.27" y="-1.27" drill="0.65" diameter="2.54"/>
+<pad name="P$10" x="1.27" y="-1.27" drill="0.65" diameter="2.54"/>
+<pad name="P$11" x="3.81" y="-1.27" drill="0.65" diameter="2.54"/>
+<pad name="P$12" x="3.81" y="1.27" drill="0.65" diameter="2.54"/>
 </package>
 </packages>
 <symbols>
@@ -17545,8 +17545,8 @@ Source: www.st.com, BAT60J.pdf</description>
 <part name="IC1" library="allegro" library_urn="urn:adsk.eagle:library:93" deviceset="ACS758*" device="" package3d_urn="urn:adsk.eagle:package:3449/1" technology="LCB-050B-PFF-T"/>
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1"/>
 <part name="U1" library="microbuilder" deviceset="ADC_ADS1015" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17554,8 +17554,8 @@ Source: www.st.com, BAT60J.pdf</description>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -17577,8 +17577,8 @@ Source: www.st.com, BAT60J.pdf</description>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT60J" device="" package3d_urn="urn:adsk.eagle:package:43461/1" value="MBRS1100T3G"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L2" library="inductors" library_urn="urn:adsk.eagle:library:243" deviceset="DR125" device="" package3d_urn="urn:adsk.eagle:package:15121/1" value="100uH "/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="150CLZ-0810" package3d_urn="urn:adsk.eagle:package:23394/2" value="22uF 100V"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="47uF 16v"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="A/3216-18R" package3d_urn="urn:adsk.eagle:package:23410/2" value="2.2uF 100V"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="R/2012-12R" package3d_urn="urn:adsk.eagle:package:23426/2" value="22uF 25V"/>
 </parts>
 <sheets>
 <sheet>
@@ -17706,11 +17706,11 @@ Source: www.st.com, BAT60J.pdf</description>
 <attribute name="NAME" x="36.83" y="-48.514" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.243" y="-56.388" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="7.62" y="35.56" smashed="yes">
+<instance part="C2" gate="G$1" x="7.62" y="35.56" smashed="yes">
 <attribute name="NAME" x="8.763" y="36.0426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="8.763" y="30.9626" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="45.72" y="35.56" smashed="yes">
+<instance part="C6" gate="G$1" x="45.72" y="35.56" smashed="yes">
 <attribute name="NAME" x="46.863" y="36.0426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="46.863" y="30.9626" size="1.778" layer="96"/>
 </instance>
@@ -17759,7 +17759,7 @@ Source: www.st.com, BAT60J.pdf</description>
 <wire x1="73.66" y1="38.1" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
 <junction x="53.34" y="38.1"/>
 <pinref part="L2" gate="G$1" pin="2"/>
-<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="C6" gate="G$1" pin="+"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -17826,11 +17826,11 @@ Source: www.st.com, BAT60J.pdf</description>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="C5" gate="G$1" pin="-"/>
+<pinref part="C2" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="C1" gate="G$1" pin="-"/>
+<pinref part="C6" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -17881,7 +17881,7 @@ Source: www.st.com, BAT60J.pdf</description>
 <wire x1="5.08" y1="-17.78" x2="25.4" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="-10.16" x2="5.08" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="5.08" y="-10.16"/>
-<pinref part="C5" gate="G$1" pin="+"/>
+<pinref part="C2" gate="G$1" pin="+"/>
 <junction x="7.62" y="38.1"/>
 </segment>
 </net>
