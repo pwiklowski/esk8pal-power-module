@@ -17557,11 +17557,11 @@ Source: &lt;a href="http://www.cooperbussmann.com/pdf/c73e479f-f867-4c64-ae26-9c
 <part name="U$4" library="wirepad" deviceset="PAD" device="PAD" value="PADPAD"/>
 <part name="IC3" library="national-semiconductor" library_urn="urn:adsk.eagle:library:307" deviceset="LM2596" device="S" package3d_urn="urn:adsk.eagle:package:16438/2"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:23372/2"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:23372/2"/>
 <part name="L1" library="inductors" library_urn="urn:adsk.eagle:library:243" deviceset="DR1030" device="" package3d_urn="urn:adsk.eagle:package:15129/1"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="R/2012-12R" package3d_urn="urn:adsk.eagle:package:23426/2"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="R/2012-12R" package3d_urn="urn:adsk.eagle:package:23426/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -17656,14 +17656,6 @@ Source: &lt;a href="http://www.cooperbussmann.com/pdf/c73e479f-f867-4c64-ae26-9c
 <instance part="GND1" gate="1" x="20.32" y="-12.7" smashed="yes">
 <attribute name="VALUE" x="17.78" y="-15.24" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="7.62" y="35.56" smashed="yes">
-<attribute name="NAME" x="8.763" y="36.0426" size="1.778" layer="95"/>
-<attribute name="VALUE" x="8.763" y="30.9626" size="1.778" layer="96"/>
-</instance>
-<instance part="C5" gate="G$1" x="45.72" y="35.56" smashed="yes">
-<attribute name="NAME" x="46.863" y="36.0426" size="1.778" layer="95"/>
-<attribute name="VALUE" x="46.863" y="30.9626" size="1.778" layer="96"/>
-</instance>
 <instance part="L1" gate="G$1" x="38.1" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="36.7284" y="26.67" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="41.021" y="26.67" size="1.778" layer="96" rot="R90"/>
@@ -17673,6 +17665,14 @@ Source: &lt;a href="http://www.cooperbussmann.com/pdf/c73e479f-f867-4c64-ae26-9c
 </instance>
 <instance part="GND8" gate="1" x="45.72" y="27.94" smashed="yes">
 <attribute name="VALUE" x="43.18" y="25.4" size="1.778" layer="96"/>
+</instance>
+<instance part="C1" gate="G$1" x="7.62" y="35.56" smashed="yes">
+<attribute name="NAME" x="8.763" y="36.0426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="8.763" y="30.9626" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="45.72" y="35.56" smashed="yes">
+<attribute name="NAME" x="46.863" y="36.0426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="46.863" y="30.9626" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -17709,12 +17709,12 @@ Source: &lt;a href="http://www.cooperbussmann.com/pdf/c73e479f-f867-4c64-ae26-9c
 </segment>
 <segment>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
-<wire x1="45.72" y1="38.1" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="+"/>
-<junction x="45.72" y="38.1"/>
 <pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="38.1" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="+"/>
+<junction x="45.72" y="38.1"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -17773,12 +17773,12 @@ Source: &lt;a href="http://www.cooperbussmann.com/pdf/c73e479f-f867-4c64-ae26-9c
 <junction x="20.32" y="-2.54"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="-"/>
 <pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="C1" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="-"/>
 <pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="C2" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -17828,7 +17828,7 @@ Source: &lt;a href="http://www.cooperbussmann.com/pdf/c73e479f-f867-4c64-ae26-9c
 <wire x1="22.86" y1="15.24" x2="22.86" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="VIN"/>
 <wire x1="22.86" y1="7.62" x2="25.4" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="+"/>
+<pinref part="C1" gate="G$1" pin="+"/>
 <junction x="7.62" y="38.1"/>
 </segment>
 </net>
