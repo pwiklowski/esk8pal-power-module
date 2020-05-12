@@ -17747,9 +17747,7 @@ Source: www.st.com, BAT60J.pdf</description>
 <segment>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
 <wire x1="53.34" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="+"/>
-<junction x="45.72" y="38.1"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="-50.8" x2="88.9" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-50.8" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
@@ -17870,7 +17868,6 @@ Source: www.st.com, BAT60J.pdf</description>
 <wire x1="68.58" y1="116.84" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="111.76" x2="5.08" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="60.96" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="38.1" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="P"/>
 <pinref part="C1" gate="G$1" pin="+"/>
 <junction x="7.62" y="38.1"/>
