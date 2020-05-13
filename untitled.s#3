@@ -17256,6 +17256,9 @@ Source: AVX .. aphvc.pdf</description>
 <pad name="P$11" x="3.81" y="-1.27" drill="0.65" diameter="2.54"/>
 <pad name="P$12" x="3.81" y="1.27" drill="0.65" diameter="2.54"/>
 </package>
+<package name="PADS">
+<smd name="P$1" x="0" y="0" dx="6.7056" dy="4.8768" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PAD">
@@ -17283,6 +17286,14 @@ Source: AVX .. aphvc.pdf</description>
 <device name="PAD" package="PADHOLES">
 <connects>
 <connect gate="G$1" pin="P" pad="P$2 P$3 P$5 P$6 P$7 P$9 P$10 P$11 P$12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD" package="PADS">
+<connects>
+<connect gate="G$1" pin="P" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -17552,10 +17563,10 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="U$1" library="wirepad" deviceset="PAD" device="PAD" value="PADPAD"/>
-<part name="U$2" library="wirepad" deviceset="PAD" device="PAD" value="PADPAD"/>
-<part name="U$3" library="wirepad" deviceset="PAD" device="PAD" value="PADPAD"/>
-<part name="U$4" library="wirepad" deviceset="PAD" device="PAD" value="PADPAD"/>
+<part name="OUT" library="wirepad" deviceset="PAD" device="SMD" value="PADSMD"/>
+<part name="U$2" library="wirepad" deviceset="PAD" device="SMD" value="PADSMD"/>
+<part name="IN" library="wirepad" deviceset="PAD" device="SMD" value="PADSMD"/>
+<part name="U$4" library="wirepad" deviceset="PAD" device="SMD" value="PADSMD"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$5" library="texas" deviceset="LMR16006" device="" package3d_urn="urn:adsk.eagle:package:7566902/2"/>
@@ -17641,15 +17652,15 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <instance part="P+7" gate="VCC" x="137.16" y="88.9" smashed="yes">
 <attribute name="VALUE" x="134.62" y="86.36" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$1" gate="G$1" x="-5.08" y="91.44" smashed="yes">
-<attribute name="NAME" x="-6.223" y="93.2942" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-6.223" y="88.138" size="1.778" layer="96"/>
+<instance part="OUT" gate="G$1" x="-5.08" y="91.44" smashed="yes">
+<attribute name="NAME" x="-6.223" y="93.2942" size="1.778" layer="91"/>
+<attribute name="VALUE" x="-6.223" y="88.138" size="1.778" layer="91"/>
 </instance>
 <instance part="U$2" gate="G$1" x="-5.08" y="86.36" smashed="yes">
 <attribute name="NAME" x="-6.223" y="88.2142" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-6.223" y="83.058" size="1.778" layer="96"/>
 </instance>
-<instance part="U$3" gate="G$1" x="-5.08" y="60.96" smashed="yes">
+<instance part="IN" gate="G$1" x="-5.08" y="60.96" smashed="yes">
 <attribute name="NAME" x="-6.223" y="62.8142" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-6.223" y="57.658" size="1.778" layer="96"/>
 </instance>
@@ -17862,7 +17873,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="68.58" y1="116.84" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="111.76" x2="5.08" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="60.96" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P"/>
+<pinref part="IN" gate="G$1" pin="P"/>
 <wire x1="7.62" y1="38.1" x2="-10.16" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="38.1" x2="-10.16" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -17907,7 +17918,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="20.32" y1="91.44" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
 <junction x="20.32" y="91.44"/>
 <wire x1="-2.54" y1="91.44" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P"/>
+<pinref part="OUT" gate="G$1" pin="P"/>
 </segment>
 </net>
 <net name="N$3" class="0">

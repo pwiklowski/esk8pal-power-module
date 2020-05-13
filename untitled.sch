@@ -17490,8 +17490,8 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="-2.75" y1="0.25" x2="-3.25" y2="0.25" width="0.2032" layer="51"/>
 <circle x="0" y="0" radius="3.6055" width="0.0508" layer="51"/>
 <circle x="-2" y="0" radius="0.25" width="0" layer="21"/>
-<smd name="1" x="-4.5" y="0" dx="1.8" dy="3.5" layer="1"/>
-<smd name="2" x="4.5" y="0" dx="1.8" dy="3.5" layer="1"/>
+<smd name="1" x="-4.5" y="0" dx="2.308" dy="3.5" layer="1"/>
+<smd name="2" x="4.5" y="0" dx="2.308" dy="3.5" layer="1"/>
 <text x="-2" y="5.5" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-2" y="-6.25" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 </package>
