@@ -9,3 +9,12 @@ This repository contains eagle project for power board that is used in esp8pal p
 ## PCB
 
 ![Alt text](pcb.png)
+
+## Prototype
+
+![Alt text](prototype.jpg)
+
+
+## New PCB's - power module 0.2.0 and main board 0.1.
+
+![Alt text](new_pcbs.jpg)
